@@ -134,7 +134,7 @@ body {
 
 .tranding-slide-content .food-price {
   position: absolute;
-  top: 2rem;
+  bottom: 0rem;
   right: 2rem;
   color: var(--white);
 }
@@ -233,4 +233,12 @@ body {
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
+}
+.logo {
+    display: inline-block;
+    vertical-align: right;
+    width: 30px;
+    height: 30px;
+    margin-right: 70px;
+    margin-top: 5px;    /* if you want it vertically middle of the navbar. */
 }
